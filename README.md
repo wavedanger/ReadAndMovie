@@ -1,5 +1,7 @@
 <details>
-  <summary># 注意点</summary>
+  
+<summary># 注意点</summary>
+
 ### 1. 全局配置与页面配置
 页面配置会覆盖全局配置，如未设置页面配置会使用全局配置
 例如：app.json和page.json下的navigationBarBackgroundColor,page.json会覆盖app.json

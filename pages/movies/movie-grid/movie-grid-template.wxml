@@ -1,0 +1,20 @@
+<import src="../movie/movie-template.wxml" />
+<template name="movieGridTemplate">
+<!-- <scroll-view class="grid-container" enable-flex="true" bindscrolltolower="onScrollToLower" scroll-y="true">
+    <block wx:for="{{movies}}" wx:for-item="movie" wx:key="1">
+    <view class="grid-movie">
+      <template is="movieTemplate" data="{{...movie}}" />
+    </view>
+  </block>
+</scroll-view> -->
+<view wx:if="{{!movies}}" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">
+暂无数据
+</view>
+<view class="grid-container">
+    <block wx:for="{{movies}}" wx:for-item="movie" wx:key="1">
+    <view class="grid-movie">
+      <template is="movieTemplate" data="{{...movie}}" />
+    </view>
+  </block>
+</view>
+</template>

@@ -1,0 +1,28 @@
+@import "../movie/movie-template.wxss";
+/* .grid-container{
+ margin:40rpx 0rpx;
+ height:1300rpx;
+}
+.grid-movie{
+ float:left;
+ margin-bottom:40rpx;
+ margin-left:6rpx;
+}  */
+.grid-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:40rpx 0rpx;
+  /* height:1300rpx; */
+  align-content: flex-start;
+}
+.grid-container::after{
+  display:block;
+  content:"";
+  height:0;
+  flex:1;
+}
+.grid-movie{
+ margin-bottom:40rpx;
+ flex:1;
+} 

@@ -49,7 +49,7 @@ data-imgUrl取值时，需为e.currentTarget.dataset.imgurl(小写)，data-后�
 * 创建本地数据对象，再通过module.exports暴露，require引入使用
 #### 2.数据接口
 
-[详细请参考接口文档]("https://douban-api-docs.zce.me/movie.html")
+[详细请参考接口文档](https://douban-api-docs.zce.me/movie.html)
 
 * 豆瓣电影接口
 ```

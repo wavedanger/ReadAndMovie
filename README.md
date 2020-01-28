@@ -1,5 +1,7 @@
 ### 简介
 基于本地数据及豆瓣电影api的微信小程序
+### 使用
+直接clone或者download到本地用微信开发工具导入即可，注意开启不校验https一项！
 #### 效果预览
 ![预览图](https://github.com/wavedanger/wavedanger.github.io/blob/master/images/show.gif?raw=true)
 <details>

@@ -1,7 +1,7 @@
 ### 简介
 基于本地数据及豆瓣电影api的微信小程序
 #### 效果预览
-![预览图]("")
+![预览图](https://github.com/wavedanger/wavedanger.github.io/blob/master/images/show.gif?raw=true)
 <details>
   
 <summary>注意点</summary>
@@ -82,7 +82,7 @@ align-content:flex-start
 ```
 #### 2.template嵌套
 * 主要为电影九宫格，电影列表，单个电影，星星评分，从大往小嵌套
-![嵌套关系图]("")
+![嵌套关系图](https://github.com/wavedanger/wavedanger.github.io/blob/master/images/template.PNG?raw=true)
 </details>
 
 <details>

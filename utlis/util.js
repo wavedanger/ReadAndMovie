@@ -38,7 +38,7 @@ function convertToCastInfos(casts) {
   for(var i in casts){
     var cast={
       name:casts[i].name,
-      img:casts[i].avatars.large
+      img: casts[i].avatars?casts[i].avatars.large:"../../../images/avatar.png"
     }
     castsArr.push(cast)
   }
